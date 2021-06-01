@@ -33,9 +33,10 @@
     position: absolute;
     width: 80%;
     height: 30%;
-    top: 500px;
+    top: 535px;
     left: 400px;
     transform: translate(-50% , -50%);
+    text-transform: uppercase;
 }
 
 /* seconda sezione  */
@@ -57,7 +58,7 @@
 
 #th{
     position: absolute;
-    top: 250px;
+    top: 300px;
     left: 400px;
     transform: translate(-50% , -50%);
 }
@@ -68,7 +69,8 @@
     position: absolute;
     width: 80%;
     height: 30%;
-    top: 500px;
+    top: 580px;
     left: 400px;
     transform: translate(-50% , -50%);
+    text-transform: uppercase;
 }
