@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* prima sezione  */
+
+.first-section{
+    height: 100vh;
+    background-color: red;
+    
+}
+
+#first-shoe{
+    height: 400px;
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#superga{
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    transform: translate(-50% , -50%);
+}
+
+#first-shoe h1{
+    color: yellow;
+    font-size: 45px;
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    top: 500px;
+    left: 400px;
+    transform: translate(-50% , -50%);
+}
+
+/* seconda sezione  */
+
+
+
+.second-section{
+    height: 100vh;
+    background-color: green;
+    
+}
+
+#second-shoe{
+    height: 400px;
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#th{
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    transform: translate(-50% , -50%);
+}
+
+#second-shoe h1{
+    color: yellow;
+    font-size: 45px;
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    top: 500px;
+    left: 400px;
+    transform: translate(-50% , -50%);
+}
