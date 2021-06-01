@@ -1,7 +1,28 @@
+/* generics */
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+h1{    
+    font-size: 45px;
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    top: 580px;
+    left: 400px;
+    transform: translate(-50% , -50%);
+    text-transform: uppercase;
+}
+
+.yellow{
+    color: yellow;
+    }
+
+.green{
+    color:green;
 }
 
 
@@ -27,26 +48,11 @@
     transform: translate(-50% , -50%);
 }
 
-#first-shoe h1{
-    color: yellow;
-    font-size: 45px;
-    position: absolute;
-    width: 80%;
-    height: 30%;
-    top: 535px;
-    left: 400px;
-    transform: translate(-50% , -50%);
-    text-transform: uppercase;
-}
-
 /* seconda sezione  */
-
-
 
 .second-section{
     height: 100vh;
-    background-color: green;
-    
+    background-color: green;    
 }
 
 #second-shoe{
@@ -63,14 +69,24 @@
     transform: translate(-50% , -50%);
 }
 
-#second-shoe h1{
-    color: yellow;
-    font-size: 45px;
+/* terza sezione  */
+
+.third-section{
+    height: 100vh;
+    background-color: yellow;
+    
+}
+
+#third-shoe{
+    height: 400px;
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#converse{
     position: absolute;
-    width: 80%;
-    height: 30%;
-    top: 580px;
+    top: 300px;
     left: 400px;
     transform: translate(-50% , -50%);
-    text-transform: uppercase;
 }
