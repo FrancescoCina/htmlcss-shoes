@@ -4,18 +4,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 h1{    
     font-size: 45px;
-    position: absolute;
     width: 80%;
     height: 30%;
-    top: 580px;
-    left: 400px;
-    transform: translate(-50% , -50%);
     text-transform: uppercase;
 }
+
+
+/*  position: absolute; 
+    top: 580px;
+    left: 400px;
+    transform: translate(-50% , -50%); */
+
 
 .yellow{
     color: yellow;
@@ -24,6 +28,41 @@ h1{
 .green{
     color:green;
 }
+
+
+/* menu di navigazione  */
+
+
+.main-menu{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+
+
+li{
+    display: inline-block;
+    padding: 0 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px black solid;
+    width: 40px;
+    text-align:center ;
+    font-size: 25px;
+    margin: 0 10px;
+
+    
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    padding: 0 3px;
+
+}
+
 
 
 /* prima sezione  */
@@ -35,7 +74,7 @@ h1{
 }
 
 #first-shoe{
-    height: 400px;
+    height: 100%;
     width: 800px;
     position: relative;
     margin: 0 auto;
@@ -48,6 +87,14 @@ h1{
     transform: translate(-50% , -50%);
 }
 
+
+.first-title{    
+    position: absolute; 
+    top: 620px;
+    left: 400px;
+    transform: translate(-50% , -50%);
+}
+
 /* seconda sezione  */
 
 .second-section{
@@ -56,7 +103,7 @@ h1{
 }
 
 #second-shoe{
-    height: 400px;
+    height: 100%;
     width: 800px;
     position: relative;
     margin: 0 auto;
@@ -69,6 +116,15 @@ h1{
     transform: translate(-50% , -50%);
 }
 
+.second-title{    
+    position: absolute; 
+    top: 680px;
+    left: 400px;
+    transform: translate(-50% , -50%);
+    
+}
+
+
 /* terza sezione  */
 
 .third-section{
@@ -78,7 +134,7 @@ h1{
 }
 
 #third-shoe{
-    height: 400px;
+    height: 100%;
     width: 800px;
     position: relative;
     margin: 0 auto;
@@ -86,7 +142,16 @@ h1{
 
 #converse{
     position: absolute;
-    top: 300px;
+    top: 450px;
     left: 400px;
     transform: translate(-50% , -50%);
+}
+
+
+.third-title{    
+    position: absolute; 
+    top: 805px;
+    left: 400px;
+    transform: translate(-50% , -50%);
+    
 }
